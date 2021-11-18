@@ -7,8 +7,8 @@ const BarcodeScannerComponent = ({
   height,
   onUpdate,
 }: {
-  width: number;
-  height: number;
+  width: number | string;
+  height: number | string;
   onUpdate: (arg0: unknown, arg1?: Result) => void;
 }): React.ReactElement => {
   const webcamRef = React.useRef(null);
