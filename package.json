@@ -29,19 +29,19 @@
   },
   "homepage": "https://github.com/dashboardphilippines/react-webcam-barcode-scanner#readme",
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "dependencies": {
-    "@types/react": "^16.9.35",
-    "@zxing/library": "^0.17.0",
-    "react-webcam": "^5.0.1"
+    "@types/react": "^17.0.35",
+    "@zxing/library": "^0.18.6",
+    "react-webcam": "^6.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^2.33.0",
-    "eslint": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
     "eslint-plugin-react": "^7.20.0",
-    "typescript": "^3.9.2"
+    "typescript": "^4.5.2"
   }
 }
