@@ -29,9 +29,10 @@ const BarcodeScannerComponent = ({
   }, [codeReader, onUpdate]);
 
   React.useEffect(() => {
-    setInterval(capture, 100);
+    const interval = setInterval(capture, 100);
+
     return () => {
-      clearIntrval(interval);
+      clearInterval(interval);
     };
   }, []);
 
