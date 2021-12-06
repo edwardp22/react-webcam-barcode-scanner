@@ -40,6 +40,7 @@ const BarcodeScannerComponent = ({
     <Webcam
       width={width}
       height={height}
+      //@ts-expect-error
       ref={webcamRef}
       screenshotFormat="image/jpeg"
       audio={false}
